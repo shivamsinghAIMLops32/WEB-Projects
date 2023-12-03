@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  background-color: palegoldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  height: 30%;
+  width: 30%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card{
+  margin: 5px;
+  cursor: pointer;
+}
+.card:hover{
+  border-radius: 3px;
+}
+
+#card1{
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+}
+#card1:hover{
+  box-shadow: blue 2px 3px 3px;
+}
+#card2{
+  height: 40px;
+  width: 40px;
+  background-color: crimson;
+}
+#card2:hover{
+  box-shadow: red 2px 3px 3px;
+}
+#card3{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+}
+#card3:hover{
+  box-shadow: white 2px 3px 3px;
+}
+#card4{
+  height: 40px;
+  width: 40px;
+  background-color: black;
+}
+#card4:hover{
+  box-shadow: black 2px 3px 3px;
+}
+
+button{
+  position: absolute;
+  top: 80%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 2px black  solid;
+  font-size: 17px;
+  font-weight: 550;
+}
+button:hover{
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: red 2px 3px 3px;
+}
