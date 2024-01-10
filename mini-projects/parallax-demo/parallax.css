@@ -1,0 +1,76 @@
+html{
+  box-sizing: border-box;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  margin:0;
+  padding:0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.first-image{
+  background-image: url('image3.jpg');
+  opacity: 0.8;
+}
+
+.second-image{
+  background-image: url('image.jpg');
+}
+
+.third-image{
+  background-image: url('image2.jpg');
+}
+
+.fourth-image{
+  background-image:  url('image4.jpg');
+  opacity: 0.8;
+}
+
+.first-image,.second-image,.third-image,.fourth-image{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+section{
+  text-align: center;
+  padding: 3rem 5rem;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color: rgb(10, 10, 10);
+}
+
+.section-dark{
+  background-color: rgba(1, 1, 1, 0.764);
+  color: #ddd;
+}
+
+.images{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+
+.images div{
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  font-size: 1.5rem;
+  font-weight: 2rem;
+  z-index: 1;
+  color: royalblue;
+}
