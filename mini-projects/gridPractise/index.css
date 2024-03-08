@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(59, 57, 57);
+  display: grid;
+  padding: 4rem;
+  row-gap: 1rem;
+}
+
+.item {
+  background-color: rgb(96, 96, 195);
+  border: 5px solid black;
+}
